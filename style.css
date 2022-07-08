@@ -15,7 +15,7 @@ html {
   background-color: hsl(244, 38%, 16%);
   color: hsl(0, 0%, 100%);
   max-width: 120rem;
-  margin: 15rem auto;
+  margin: 18rem auto;
   border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
