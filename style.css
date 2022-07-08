@@ -54,6 +54,7 @@ html {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .prev-txt {
   color: hsla(0, 0%, 100%, 0.75);
