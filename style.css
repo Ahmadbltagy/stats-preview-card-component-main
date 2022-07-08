@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+html {
+  /*Reset default font-size to be 10px*/
+  font-size: 62.4%;
+  background-color: hsl(233, 47%, 7%);
+}
+.section-testimonail {
+  background-color: hsl(244, 38%, 16%);
+  color: hsl(0, 0%, 100%);
+  max-width: 120rem;
+  margin: 15rem auto;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.2rem;
+}
+
+.testimonail-text-box {
+  padding: 6rem;
+}
+
+.heading-primary {
+  font-size: 4.2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+.txt-ins {
+  color: hsl(277, 64%, 61%);
+}
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.9rem;
+  margin-bottom: 6rem;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+}
+.prev-item {
+  display: flex;
+  gap: 0.9rem;
+  flex-direction: column;
+}
+.prev-num {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.prev-txt {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 1.2;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.testimonail-img-box {
+  width: 100%;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 8px;
+  background: linear-gradient(
+      hsla(277, 64%, 61%, 0.3),
+      hsla(277, 64%, 61%, 0.3)
+    ),
+    url("./images/image-header-desktop.jpg");
+  background-size: cover;
+}
